@@ -25,7 +25,7 @@ local function style(italic, bold)
 end
 
 M.config = {
-  transparent = opt("transparent", false),
+  transparent = opt("transparent", true),
   comment_style = style(opt("italic_comments", true), opt("bold_comments", false)),
   keyword_style = style(opt("italic_keywords", false), opt("bold_keywords", false)),
   boolean_style = style(opt("italic_booleans", false), opt("bold_booleans", false)),
